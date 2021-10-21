@@ -10,7 +10,7 @@ Marketing campaigns are characterized by focusing on the customer needs and thei
 A Term deposit is a deposit that a bank or a financial institurion offers with a fixed rate (often better than just opening deposit account) in which your money will be returned back at a specific maturity time. For more information with regards to Term Deposits please click on this link from Investopedia: https://www.investopedia.com/terms/t/termdeposit.asp
 
 # A. Attributes Description:
-Input variables:
+## Input variables:
 
 # Ai. bank client data:
 1 - age: (numeric)
@@ -34,5 +34,5 @@ Input variables:
 14 - previous: number of contacts performed before this campaign and for this client (numeric)
 15 - poutcome: outcome of the previous marketing campaign (categorical: 'failure','nonexistent','success')
 
-# Output variable (desired target):
+##  Output variable (desired target):
 21 - y - has the client subscribed a term deposit? (binary: 'yes','no')
